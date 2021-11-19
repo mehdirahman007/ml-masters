@@ -1,0 +1,153 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	Lattes - One page multi purpose page
+Version:	1.0
+Last change:	17/08/2015 [...]
+Designed by:	MOOZ Themes / www.MOOZthemes.com
+Primary use:	One page
+
+[Table of contents]
+
+1. General
+2. Header
+3. Navigation
+4. Sections
+5. Footer
+6. Components
+
+[Color codes]
+
+Buttons, etc:	#726FB9 (blue)
+hover color:	#4ec8ca (teal)
+-------------------------------------------------------------------*/
+
+/*--------------------
+Import Google Fonts
+--------------------*/
+
+/* main font for menu. */
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+/* font for headings, text, tags */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400italic&subset=latin,latin-ext);
+
+/*--------------------
+1. General
+--------------------*/
+
+body {
+  margin: 0px;
+    font-family: "Open Sans", Sans-serif;
+}
+
+@media (min-width: 768px) {
+	section {
+	    padding: 150px 0;
+	}
+}
+
+section {
+    padding: 70px 0;
+}
+
+
+/*--------------------
+3. Header
+--------------------*/
+
+header {
+    background-image: url(../static/images/grocery.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+	header .intro-text {
+	    padding-top: 300px;
+	    padding-bottom: 200px;
+	}
+}
+
+header .intro-text .intro-lead-in {
+    font-family: "Playfair Display",sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+	header .intro-text .intro-lead-in {
+	    font-family: "Playfair Display",sans-serif;
+	    font-style: italic;
+	    font-size: 40px;
+	    line-height: 40px;
+	    margin-bottom: 25px;
+	}
+}
+
+header .intro-text .intro-heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+	header .intro-text .intro-heading {
+	    text-transform: uppercase;
+	    font-weight: 700;
+	    font-size: 75px;
+	    line-height: 75px;
+	    margin-bottom: 50px;
+	}
+}
+
+/*--------------------
+4. Sections
+--------------------*/
+
+h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    color: #4ec8ca;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 23px;
+    color: #4ec8ca;
+    font-weight: bold;
+    justify-content: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 20px 100px 60px 100px;
+    justify-content: center;
+    float: right;
+    width: 50%;
+}
+
+img {
+    width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
